@@ -7,5 +7,5 @@ const countwords = () =>
     now = now.length;
 
     document.getElementById('showdata').innerHTML = " The total Characters = " + noc;
-    document.getElementById('showwordscount').innerHTML = "The total words = " + now;
+    document.getElementById('showordscount').innerHTML = "The total words = " + now;
 }
