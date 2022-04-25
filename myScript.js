@@ -5,7 +5,6 @@ const countwords = () =>
  
     now =  now.match(/\w+/g);
     now = now.length;
-    console.log(now);
 
     document.getElementById('showdata').innerHTML = " The total Characters = " + noc;
     document.getElementById('showwordscount').innerHTML = "The total words = " + now;
